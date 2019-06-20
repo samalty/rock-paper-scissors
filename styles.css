@@ -1,0 +1,117 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background: #141439;
+}
+
+header{
+    background: #b3cccc;
+    padding-top: 10px;
+    padding-bottom: 10px
+}
+
+h1{
+    font-family: sans-serif;
+}
+
+.scores{
+    border: 3px solid #ffffff;
+    padding: 5px;
+    margin: 15px auto;
+    margin-top: 30px;
+    width: 250px;
+    height: 75px;
+    color: #ffffff;
+    font-family: sans-serif;
+    font-size: 60px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+#user-label{
+    font-size: 16px;
+    padding: 3px;
+    background: #cc0000;
+    width: 100px;
+    border-radius: 5px;
+    position: relative;
+    top: 25px;
+    left: -55px;
+}
+
+#computer-label{
+    font-size: 16px;
+    padding: 3px;
+    background: #cc0000;
+    width: 100px;
+    border-radius: 5px;
+    position: relative;
+    top: 1px;
+    left: 200px;
+}
+
+#user-score,
+#computer-score,
+#colon{
+    position: relative;
+    top: -45px;
+}
+
+.result > p{
+    font-size: 20px;
+    font-family: sans-serif;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+}
+
+.choices{
+    text-align: center;
+}
+
+.choice{
+    margin: 5px 10px;
+    padding: 8px;
+    width: 100px;
+    background: #cc0000;
+    font-family: sans-serif;
+    font-size: 16px;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+
+.choice:hover{
+    background: #990000;
+}
+
+#message{
+    font-family: sans-serif;
+    font-size: 20px;
+    color: #ffffff;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.reset-div{
+    text-align: center;
+}
+
+.reset{
+    font-family: sans-serif;
+    font-size: 28px;
+    color: #ffffff;
+    background: #cc0000;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+.win-border{
+    border: 5px solid #00e600;
+}
+
+.lose-border{
+    border: 5px solid #cc0000;
+}
